@@ -1,8 +1,8 @@
 export default function Nav() {
   return (
     <div className="nav">
-      <div className="leftside">
-        <p className="taste">Taste Of Paris</p>
+          <div className="leftside">
+              <img alt ="logo" src="https://i.ibb.co/X2RGpSB/Taste-Of-Paris-1.png" />
       </div>
           <div className="rightside">
               <div className="links">
