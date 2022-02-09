@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Montserrat:wght@100&family=Poiret+One&family=Yeseva+One&display=swap');
 
 
-.App {
+/* .App {
   width: 100vw;
   height: 100vh;
-}
+} */
 
 body {
   margin: 0px;
+  background-color: #0f0e0d;
+
 }
 
 a {
@@ -57,26 +59,30 @@ a:visited {
 
 .brulee {
 width: 100%;
-position: fixed;
+/* position: fixed; */
 }
 
 
 .container {
-  position: relative;
+  /* position: relative;
   text-align: center;
-  color: white;
+  color: white; */
+  position: absolute;
+  top: 30%;
+
 }
 
 #animate {
-  position:absolute;
+  /* position: fixed; */
+  margin: 0;
   font-family: 'Yeseva One';
   font-size: 6em;
-  margin-top: 20%;
+  text-align: center;
+  color: white;
   text-shadow: 0 5px 10px rgba(0,0,0,1);
-  /* mix-blend-mode: color-burn; */
 }
 
-button {
+.ordernow {
   height: 80px;
   width: 150px;
   position: relative;
@@ -87,8 +93,18 @@ button {
 }
 
 
+.map-container {
+  width: 600px;
+  height: 400px;
+}
+
+.visitus {
+/* background-color: #0f0e0d; */
+color: white;
+}
 
 /* :root {
   --animate-duration: 900ms;
   --animate-delay: 0.9s;
 } */
+
