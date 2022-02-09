@@ -59,21 +59,16 @@ a:visited {
 
 .brulee {
 width: 100%;
-/* position: fixed; */
 }
 
 
 .container {
-  /* position: relative;
-  text-align: center;
-  color: white; */
   position: absolute;
   top: 30%;
 
 }
 
 #animate {
-  /* position: fixed; */
   margin: 0;
   font-family: 'Yeseva One';
   font-size: 6em;
@@ -98,13 +93,43 @@ width: 100%;
   height: 400px;
 }
 
-.visitus {
-/* background-color: #0f0e0d; */
-color: white;
-}
-
 /* :root {
   --animate-duration: 900ms;
   --animate-delay: 0.9s;
 } */
 
+.mapbox {
+  margin: 50px;
+}
+
+
+.visitus {
+  color: white;
+  padding: 4px;
+  }
+  
+.visit-title {
+  font-family: 'Montserrat';
+  font-size: 2em;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+}
+
+.right-container {
+  width: 40vw;
+  font-family: 'Montserrat';
+  font-size: 1.25em;
+  display: flex;
+  padding-top: 10px;
+  flex-direction: column;
+}
+
+.outerinfo {
+  display: flex;
+}
+
+.outerinfo .right-container {
+  flex: 50%;
+  align-items: center;
+}

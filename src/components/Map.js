@@ -6,15 +6,14 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 export default function Mapbox() {
 
   return (
-    <div>
+    <div className="mapbox">
       <Map
-        className="mapbox"
         initialViewState={{
           latitude: 42.26542185364574,
           longitude: -88.0024336733652,
           zoom: 14,
         }}
-        style={{ width: 400, height: 300 }}
+        style={{ width: 400, height: 400 }}
         mapStyle="mapbox://styles/mapbox/dark-v10"
         mapboxAccessToken="pk.eyJ1IjoidHJ1bmdwaGFuOTkiLCJhIjoiY2txZmI3cDl5MG42ODJvc2N1emRqcndqYyJ9.-QdtnY-bLP8PSXMwwXuQEA"
       >
