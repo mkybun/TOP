@@ -31,9 +31,25 @@ export default function Home() {
             <Map />
           </div>
 
-          <div className="right-container">
-            <text>161 North Seymour Avenue, Mundelein, Illinois 60060</text>
-            <h1>Hours</h1>
+                  <div className="right-container">
+                      
+
+                      <div className='outeraddy'>
+                      <p className='addy'>161 North Seymour Avenue</p>
+                      <p className='addy'>Mundelein, Illinois 60060</p>
+                      </div>
+                   
+
+                      <div className='outerhours'>
+                      <p className='hours title2'>Hours</p>
+                          <p className='hours monday'>Monday: Closed</p>
+                          <p className='hours t2s'>Tuesday through Saturday:</p>
+                          <p>Breakfast: 6am to 11am</p>
+                          <p>Lunch: 11am to 2:30pm</p>
+                          <p>Dinner: 4:30pm to 9pm</p>
+</div>
+
+                  
           </div>
         </div>
       </section>

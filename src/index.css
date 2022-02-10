@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Montserrat:wght@100&family=Poiret+One&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Montserrat:wght@100;600&family=Poiret+One&family=Yeseva+One&display=swap');
 
 
 /* .App {
@@ -110,7 +110,7 @@ width: 100%;
   
 .visit-title {
   font-family: 'Montserrat';
-  font-size: 2em;
+  font-size: 2.5em;
   height: 5vh;
   display: flex;
   justify-content: center;
@@ -121,7 +121,7 @@ width: 100%;
   font-family: 'Montserrat';
   font-size: 1.25em;
   display: flex;
-  padding-top: 10px;
+  margin-top: 30px;
   flex-direction: column;
 }
 
@@ -133,3 +133,39 @@ width: 100%;
   flex: 50%;
   align-items: center;
 }
+
+.addy {
+ margin: 0em;
+}
+
+.hours {
+  margin: 0em;
+}
+
+.outeraddy {
+  margin-bottom: 10px;
+}
+
+.outerhours {
+  /* border-style: dashed; */
+
+}
+
+.hours.title2 {
+  margin-left: 20px;
+}
+
+.outerhours .title2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 20px;
+}
+
+.outerhours .monday {
+  font-weight: 700;
+}
+
+/* .outerhours .t2s {
+  font-weight: 700;
+  margin: 20px;
+} */
