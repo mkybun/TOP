@@ -10,12 +10,10 @@ export default function Nav() {
         </Link>
       </div>
       <div className="rightside">
-        <div className="links">
           <Link to="about">About</Link>
           <Link to="events">Events</Link>
           <Link to="menu">Menu</Link>
           <Link to="contact">Contact</Link>
-        </div>
       </div>
     </div>
   );

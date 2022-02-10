@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Montserrat:wght@100;600&family=Poiret+One&family=Yeseva+One&display=swap');
 
-
 /* .App {
   width: 100vw;
   height: 100vh;
@@ -9,7 +8,6 @@
 body {
   margin: 0px;
   /* background-color: #0f0e0d; */
-
 }
 
 a {
@@ -39,7 +37,7 @@ a:visited {
   flex: 80%;
 }
 
- .nav .rightside .links {
+.rightside {
   display: flex;
   justify-content: space-around;
   color: whitesmoke;
@@ -47,6 +45,7 @@ a:visited {
   font-size: 1em;
   max-height: 80px;
   padding: 10px 10px;
+  align-items: center;
 }
 
 .taste {
@@ -55,17 +54,13 @@ a:visited {
   color: whitesmoke;
 }
 
-
-
 .brulee {
-width: 100%;
+  width: 100%;
 }
-
 
 .container {
   position: absolute;
   top: 30%;
-
 }
 
 #animate {
@@ -74,20 +69,18 @@ width: 100%;
   font-size: 8vw;
   text-align: center;
   color: white;
-  text-shadow: 0 5px 10px rgba(0,0,0,1);
-
+  text-shadow: 0 5px 10px #000000;
 }
 
 .ordernow {
   height: 12vh;
   width: 9vw;
   position: relative;
-  background: orange;
+  background: #e0a330;
   /* margin-top: 10px; */
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: .2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.2em;
 }
-
 
 .map-container {
   width: 600px;
@@ -103,13 +96,12 @@ width: 100%;
   margin: 50px;
 }
 
-
 .visitus {
   color: white;
   padding: 4px;
   background-color: #0f0e0d;
-  }
-  
+}
+
 .visit-title {
   font-family: 'Montserrat';
   font-size: 2.5em;
@@ -137,10 +129,8 @@ width: 100%;
 }
 
 .addy {
- margin: 0em;
+  margin: 0em;
 }
-
-
 
 .outeraddy {
   margin-bottom: 10px;
@@ -154,11 +144,6 @@ width: 100%;
   height: 60vh;
 }
 
-
-
-.hours.title2 {
-  /* margin-left: 20px; */
-}
 
 .outerhours .title2 {
   font-size: 1.5em;
@@ -175,14 +160,12 @@ width: 100%;
   align-items: center;
 }
 
-
 .t2s {
   font-weight: 600;
 }
 
-
 .hello {
   background-color: aqua;
-  font-size: 5em;
+  font-size: 4em;
   color: red;
 }
