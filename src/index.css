@@ -148,24 +148,30 @@ width: 100%;
 
 .outerhours {
   /* border-style: dashed; */
-
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  height: 60vh;
 }
 
+
+
 .hours.title2 {
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 .outerhours .title2 {
   font-size: 1.5em;
   font-weight: 700;
-  margin: 20px;
+  /* margin: 20px; */
 }
 
 .outerhours .monday {
   font-weight: 700;
 }
 
-/* .outerhours .t2s {
-  font-weight: 700;
-  margin: 20px;
-} */
+.outerinfo .outerhours {
+  align-items: center;
+}
+
+
