@@ -8,7 +8,7 @@
 
 body {
   margin: 0px;
-  background-color: #0f0e0d;
+  /* background-color: #0f0e0d; */
 
 }
 
@@ -71,18 +71,19 @@ width: 100%;
 #animate {
   margin: 0;
   font-family: 'Yeseva One';
-  font-size: 6em;
+  font-size: 8vw;
   text-align: center;
   color: white;
   text-shadow: 0 5px 10px rgba(0,0,0,1);
+
 }
 
 .ordernow {
-  height: 80px;
-  width: 150px;
+  height: 12vh;
+  width: 9vw;
   position: relative;
   background: orange;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   font-family:Arial, Helvetica, sans-serif;
   font-size: .2em;
 }
@@ -106,6 +107,7 @@ width: 100%;
 .visitus {
   color: white;
   padding: 4px;
+  background-color: #0f0e0d;
   }
   
 .visit-title {
@@ -138,9 +140,7 @@ width: 100%;
  margin: 0em;
 }
 
-.hours {
-  margin: 0em;
-}
+
 
 .outeraddy {
   margin-bottom: 10px;
@@ -163,6 +163,7 @@ width: 100%;
 .outerhours .title2 {
   font-size: 1.5em;
   font-weight: 700;
+  color: blue;
   /* margin: 20px; */
 }
 
@@ -175,3 +176,13 @@ width: 100%;
 }
 
 
+.t2s {
+  font-weight: 600;
+}
+
+
+.hello {
+  background-color: aqua;
+  font-size: 5em;
+  color: red;
+}
