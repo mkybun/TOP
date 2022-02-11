@@ -164,8 +164,26 @@ a:visited {
   font-weight: 600;
 }
 
-.hello {
-  background-color: aqua;
-  font-size: 4em;
-  color: red;
+.menu-container {
+  background-color: #dfdcd9;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  /* border-style: dotted; */
+  overflow: auto;
+}
+
+.outermenu {
+  display: flex;
+  flex-direction: column;
+  border-style:dashed;
+  padding:50px;
+  margin-top: 6%;
+  color: rgb(29, 27, 25);
+}
+
+
+.breakfast {
+  width: 60vw;
+  height: 80vh;
 }
